@@ -1,6 +1,6 @@
 # House Price Prediction using Machine Learning
 
-capstone project (MVJ College of Engineering, VTU) — predicting house prices for localities in and around Bangalore using classical ML (Linear/Logistic Regression + collaborative filtering ideas) and a simple JSP/Servlet + MySQL web app.
+Capstone project (MVJ College of Engineering, VTU) — predicting house prices for localities in and around Bangalore using classical ML (Linear/Logistic Regression + collaborative filtering ideas) and a simple JSP/Servlet + MySQL web app.
 
 > This repo packages the final report, publication, slides.
 ## Overview
