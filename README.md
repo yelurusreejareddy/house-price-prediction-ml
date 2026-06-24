@@ -1,61 +1,41 @@
-# House Price Prediction using Machine Learning
+# house-price-prediction-ml
 
-Capstone project (MVJ College of Engineering, VTU) — predicting house prices for localities in and around Bangalore using classical ML (Linear/Logistic Regression + collaborative filtering ideas) and a simple JSP/Servlet + MySQL web app.
+Undergraduate research project predicting house prices for localities in and
+around Bangalore using Linear Regression and Logistic Regression.
+Published in IJRASET, August 2021.
 
-> This repo packages the final report, publication, slides.
-## Overview
+## Files Included
 
-- **Goal.** Accurately estimate house prices based on features such as area (sqft), bedrooms, bathrooms, flooring, lift/parking, furnishing, etc., plus nearby amenities (schools, hospitals, transit).  
-- **Approach.** Data cleaning and feature weighting, then train/evaluate classic models (Linear & Logistic Regression; collaborative filtering conceptually to adjust for locality & amenities).  
-- **App.** A 2-role web interface:
-  - **Admin:** upload/view dataset, manage users.
-  - **User:** query predictions by city/area/type, or by city/area/budget, or for whole city.
+- Publication.pdf - IJRASET published paper (August 2021)
+- MajorProject_Report.pdf - full project report
+- Paper(Major_project).docx - conference paper draft
+- Phase 2_review.pptx - project review presentation
+NOTE - Code files will be provided upon request
 
-## Tech Stack
+## Techniques Used
 
-- **Backend:** Java 7+, JSP/Servlets (Tomcat 7+)
-- **DB:** MySQL 5.7+ (example schema in `sql/`)
-- **IDE:** Eclipse (any), or your favorite
-- **Client:** HTML/CSS/JS
+- Feature engineering on area (sqft), bedrooms, bathrooms, furnishing,
+  lift/parking, and nearby amenities (schools, hospitals, transit)
+- Linear Regression for price estimation
+- Logistic Regression for classification-style checks
+- Locality-based weighting to account for neighborhood effects
+- Data cleaning and feature normalization
 
-## Repository Layout
+## Stack
 
-```
-house-price-prediction-ml/
-├─ README.md
-├─ Final_Project_Report.pdf
-├─ Conference_Paper.docx
-├─ Phase2_Review_Slides.pptx
-├─ publication/Journal_Publication.pdf
-```
+Python, scikit-learn, pandas, numpy, matplotlib
 
-## Quick Start (Dev)
+## Results
 
+Linear Regression fit the numeric feature set best for the dataset analyzed.
+Incorporating locality amenity features improved practical accuracy.
 
-1. **Data**
-   - Use the Admin menu to upload/view the dataset (feature list is in the report).
-   - Try predictions by city/area/type, or city/area/budget.
+## Goal
 
-## Results (from the study)
-
-- Linear Regression fit the (mostly numeric) features best for the dataset analyzed.
-- Logistic Regression was used for related classification-style checks.
-- Incorporating locality amenities improved practical accuracy (manually validated).
-
-
-## Limitations & Future Work
-
-- Missing full Java source for Servlets/DAOs (only JSP stubs included).  
-- Dataset not bundled — add your CSV and wire up upload/parse code.  
-- Ideas to extend: better feature engineering, model ensembles (GBM/RF), geospatial features, SHAP for explainability, Dockerization.
-
-## Citation
-
-If you reference this work, please cite the included journal article (IJRASET, Aug 2021) and the project report (MVJCE/VTU).
+To predict residential property prices using classical regression methods
+and validate findings through academic publication.
 
 ---
 
-### Acknowledgments
-
-- Guide: Dr. S. Umamaheswaran (Dept. of CSE, MVJCE).  
-- Team: Millee Samukcham, Riya Choudhary, M. Bhavana, Yeluru Sreeja Reddy.
+Acknowledgments: Dr. S. Umamaheswaran (Dept. of CSE, MVJCE) - project guide.
+Team: Yeluru Sreeja Reddy, Millee Samukcham, Riya Choudhary, M. Bhavana.
