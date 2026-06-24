@@ -10,7 +10,7 @@ Published in IJRASET, August 2021.
 - MajorProject_Report.pdf - full project report
 - Paper(Major_project).docx - conference paper draft
 - Phase 2_review.pptx - project review presentation
-NOTE - Code files will be provided upon request
+- NOTE: Code files will be provided upon request
 
 ## Techniques Used
 
