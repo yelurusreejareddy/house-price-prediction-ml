@@ -8,8 +8,8 @@ Published in IJRASET, August 2021.
 
 - Publication.pdf - IJRASET published paper (August 2021)
 - MajorProject_Report.pdf - full project report with methodology and results
-- Paper(Major_project).docx - conference paper draft
-- Phase 2_review.pptx - project review presentation
+- paper.docx - conference paper draft
+- presentation.pptx - project review presentation
 
 Note: Dataset and web application source code not included in this repo, will be provided upon request.
 
