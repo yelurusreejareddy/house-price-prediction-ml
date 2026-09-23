@@ -40,7 +40,7 @@ price based on structured property features and neighborhood context.
 
 ## Stack
 
-Python, scikit-learn, pandas, numpy, Java, JSP/Servlets, MySQL
+Java (JDK 1.7), JSP/Servlets, Apache Tomcat, MySQL, HTML
 
 ## Results
 
