@@ -56,4 +56,4 @@ the approach through peer-reviewed academic publication.
 ---
 
 Acknowledgments: Dr. S. Umamaheswaran (Dept. of CSE, MVJCE) - project guide.
-Team: Yeluru Sreeja Reddy, Millee Samukcham, Riya Choudhary, M. Bhavana.
+Team project with four members.
